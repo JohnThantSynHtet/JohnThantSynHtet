@@ -1,44 +1,47 @@
 <div align="center">
 
-# Thant Syn Htet
+# Hey, I’m Thant Syn Htet 👋
 
-### Software engineer building useful systems across backend, AI, and mobile
+**I build software for the part where a good idea meets messy real-world data.**
 
-Computer Science @ University of Illinois Chicago · Electrical Engineering minor · Graduating December 2027
+Computer Science @ UIC · Electrical Engineering minor · Chicago  
+Looking for **Summer 2027 software engineering internships**
 
-[LinkedIn](https://www.linkedin.com/in/thantsynhtet/) · [Email](mailto:thtet@uic.edu) · [Projects](#selected-work)
+[Explore my work](#things-ive-built) · [LinkedIn](https://www.linkedin.com/in/thantsynhtet/) · [Email me](mailto:thtet@uic.edu)
 
 </div>
 
 ---
 
-I’m a software engineer in Chicago interested in backend systems and practical AI. At UI Health, I work on data and machine learning workflows for liver tumor imaging research. I also build tools that turn messy information into something people can use.
+I’m drawn to projects that make complicated information useful. That has taken me from weather APIs and JavaFX, to a local search system for student advice, to machine learning work on liver tumor imaging at UI Health. I enjoy the backend work behind the interface: shaping data, handling edge cases, and making the result understandable to someone else.
 
-Right now I’m looking for **Summer 2027 software engineering internships**, especially backend and platform roles.
+### Things I’ve built
 
-### Selected work
+**01 / [Weather App](https://github.com/JohnThantSynHtet/Weather_App) — the deepest engineering project here**  
+A team-built JavaFX weather application that brings together city search, National Weather Service forecasts, hourly and weekly views, and weather-specific visuals. The code separates API data from UI models with an adapter, uses factories for visual components, and includes tests. I worked on the app structure, Today view, search improvements, and later refactoring.
 
-| Project | What I built and explored |
-| :--- | :--- |
-| [PathReview](https://github.com/JohnThantSynHtet/pathreview) | A portfolio review application that brings together GitHub and resume analysis, retrieval, an API, and a web dashboard. |
-| [Provenance Guard](https://github.com/JohnThantSynHtet/ai201-project4-provenance-guard) | A Flask API prototype that combines local model and writing-style signals, reports uncertainty, and logs submissions and appeals. |
-| [BloomCenter](https://github.com/JohnThantSynHtet/BloomCenter) | A React Native and Expo project for exploring and contributing flower bloom observations. |
+**02 / [The Unofficial Guide](https://github.com/JohnThantSynHtet/ai201-project1-unofficial-guide-starter) — questions students actually ask**  
+A small retrieval-augmented Q&A system for UIC CS course and professor summaries. I built the text chunking, local embeddings and Chroma retrieval, source attribution, and an answer path that declines to guess when retrieval is weak. It runs with a local Ollama model.
 
-### What I work with
+**03 / [Provenance Guard](https://github.com/JohnThantSynHtet/ai201-project4-provenance-guard) — an experiment in uncertainty**  
+A Flask API prototype that combines a local model score with simple writing-style signals. It returns an uncertain result when the evidence is mixed and records submissions and appeals. It’s an exploration of transparency, not a reliable authorship detector.
 
-**Languages:** Python · Java · JavaScript · SQL · Go · C/C++  
-**Backend and data:** FastAPI · Spring Boot · PostgreSQL · Pandas · PyTorch  
-**Frontend and mobile:** React · Next.js · React Native · Expo  
-**Tools:** AWS · Docker · Git · GitHub Actions
+**04 / [Action Tracker](https://github.com/JohnThantSynHtet/Action-Tracker) — the full-stack fundamentals**  
+A small task app with a FastAPI and SQLAlchemy backend and a React frontend. Create, list, update, and delete tasks through a REST API.
 
-### Beyond code
+### My toolkit
 
-I founded the Burmese Student Association at UIC and serve as secretary of ACM at UIC. Before software engineering, I competed as a national sailing athlete for Myanmar. Those experiences taught me how to build teams, stay calm under pressure, and keep improving through feedback.
+`Python` `Java` `JavaScript` `SQL` `FastAPI` `Spring Boot` `React` `PostgreSQL` `PyTorch` `Docker` `AWS`
+
+I’m studying Computer Science at the **University of Illinois Chicago**, with a Software Engineering concentration and an Electrical Engineering minor. I expect to graduate in **December 2027**.
+
+Outside code, I founded UIC’s Burmese Student Association, serve as secretary of ACM at UIC, and used to compete as a national sailing athlete for Myanmar. I like teams where people care about the details and help each other get better.
 
 ---
 
 <div align="center">
 
-**Have a project or internship opportunity in mind?** [Let’s connect on LinkedIn](https://www.linkedin.com/in/thantsynhtet/) or [send me an email](mailto:thtet@uic.edu).
+**Want to build something together?**  
+[Connect on LinkedIn](https://www.linkedin.com/in/thantsynhtet/) · [thtet@uic.edu](mailto:thtet@uic.edu)
 
 </div>
