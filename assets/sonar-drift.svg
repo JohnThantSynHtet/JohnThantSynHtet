@@ -22,13 +22,19 @@
       <path d="M-167 0H167 M0-158V158" opacity=".18"/>
       <circle r="48" stroke-width="2" opacity=".15"><animate attributeName="r" values="48;145;48" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values=".04;.22;.04" dur="12s" repeatCount="indefinite"/></circle>
     </g>
-    <!-- Original stylized whale silhouette: decorative artwork, not an application screenshot. -->
-    <g opacity=".78" transform="translate(1003 114) rotate(-10)">
-      <path d="M-125 10 C-93 -8 -42 -25 23 -19 C48 -20 69 -28 87 -34 C80 -13 78 -4 82 3 C100 17 115 27 131 30 C102 39 79 20 62 12 C15 33 -45 37 -94 19 C-112 22 -134 34 -156 47 C-143 23 -139 12 -138 7 C-147 -2 -159 -20 -166 -39 C-142 -33 -125 -17 -112 -9Z" fill="url(#whale)" stroke="#2c95a7" stroke-width="2"/>
-      <path d="M-49 23 C-29 35 -19 53 -11 70 C-3 52 4 34 4 26Z" fill="#0a3546" stroke="#3ba0ac" stroke-width="1.5"/>
-      <path d="M-103 8 C-27 -11 39 -5 85 -25" fill="none" stroke="#71d6d9" stroke-width="1.4" opacity=".62"/>
+    <!-- Original humpback whale vector: distinct flukes, blunt rostrum and long pectoral fin. Decorative illustration, not an application screenshot. -->
+    <g transform="translate(1003 114) rotate(-12) scale(1.02)" opacity=".89">
+      <path d="M-166 7 C-190 -6 -209 -26 -232 -31 C-216 -10 -211 -1 -196 6 C-218 13 -234 27 -250 45 C-216 39 -187 27 -167 14Z" fill="#09293a" stroke="#28788a" stroke-width="1.4"/>
+      <path d="M-168 7 C-138 -6 -111 -25 -84 -31 C-37 -46 2 -38 43 -30 C75 -25 93 -17 112 -14 C133 -11 149 0 151 12 C151 21 138 26 128 29 C108 35 89 42 56 47 C15 53 -35 47 -70 37 C-111 25 -145 20 -168 7Z" fill="url(#whale)" stroke="#2f8998" stroke-width="1.8"/>
+      <path d="M-46 -37 Q-38 -48 -31 -54 Q-32 -41 -23 -37Z" fill="#126179" stroke="#247b89" stroke-width="1.2"/>
+      <path d="M22 35 C17 55 10 78 7 97 C4 110 0 130 -7 147 C5 141 16 127 24 115 C34 99 40 83 49 67 C57 54 62 46 69 43Z" fill="#0a3546" stroke="#4ca9b5" stroke-width="1.8"/>
+      <path d="M0 137 l7 -8 m-5 -8 l10 -8 m-6 -7 l13 -10 m-6 -8 l15 -9" stroke="#57b9c0" stroke-opacity=".7" fill="none" stroke-width="1"/>
+      <path d="M14 38 C59 43 99 34 142 19" stroke="#59b6bb" stroke-opacity=".48" stroke-width="1.2" fill="none"/>
+      <path d="M48 39 C63 45 72 45 86 41 M56 43 C71 47 84 47 97 40 M66 44 C83 47 99 43 110 35" fill="none" stroke="#69a5a9" stroke-opacity=".27" stroke-width=".9"/>
+      <circle cx="119" cy="12" r="1.9" fill="#06131a" stroke="#7ebcc1" stroke-width=".75"/>
+      <path d="M-147 2 C-105 -12 -36 -34 45 -26 C82 -21 118 -7 141 5" fill="none" stroke="#8ee5e0" stroke-opacity=".52" stroke-width="1.5"/>
     </g>
-    <path d="M-45 296 C173 238 333 333 530 278 S902 246 1245 279" stroke="#00c5d4" stroke-opacity=".25" stroke-width="31" fill="none" filter="url(#blur)">
+        <path d="M-45 296 C173 238 333 333 530 278 S902 246 1245 279" stroke="#00c5d4" stroke-opacity=".25" stroke-width="31" fill="none" filter="url(#blur)">
       <animate attributeName="d" dur="16s" repeatCount="indefinite" values="M-45 296 C173 238 333 333 530 278 S902 246 1245 279;M-45 294 C173 280 333 287 530 254 S902 306 1245 262;M-45 296 C173 238 333 333 530 278 S902 246 1245 279"/>
     </path>
     <path d="M-45 297 C173 240 333 332 530 277 S902 245 1245 278" fill="none" stroke="url(#current)" stroke-width="24" opacity=".76">
@@ -44,8 +50,6 @@
       <circle cx="440" cy="272" r="1.4"/><circle cx="560" cy="305" r=".9"/><circle cx="675" cy="258" r="1.2"/><circle cx="830" cy="295" r="1.1"/><circle cx="1077" cy="304" r="1.3"/>
     </g>
     <rect x="0" y="0" width="585" height="245" fill="url(#sea)" opacity=".36"/>
-    <text x="65" y="83" fill="#9dbbc4" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="3">FIELD NOTES / 001</text>
-    <path d="M224 78H266" stroke="#83aab3" stroke-width="1" opacity=".55"/>
     <text x="63" y="160" fill="#f4f7f9" font-family="Georgia,'Times New Roman',serif" font-size="61" font-style="italic" letter-spacing="-1">Thant Syn Htet</text>
     <text x="65" y="208" fill="#c6d5da" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="2.1">BACKEND · PLATFORM · ML SYSTEMS</text>
     <path d="M64 238H272" stroke="#60d0d5" stroke-opacity=".65" stroke-width="1"/>
