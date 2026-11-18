@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/sonar-drift.svg" width="100%" alt="Thant Syn Htet — ocean-blue Sonar Drift banner with a humpback whale and softly animated currents. Backend, Platform, ML Systems." />
+  <img src="./assets/ocean-sail.svg" width="100%" alt="Thant Syn Htet — ivory-sailed white sailboat on softly animated midnight-blue waves. Backend, Platform, ML Systems." />
 </p>
 
 <p align="center">
