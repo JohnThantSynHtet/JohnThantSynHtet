@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="title desc">
+  <title id="title">Thant Syn Htet — Ocean Sail</title>
+  <desc id="desc">An animated ocean banner with a realistic ivory-sailed white sailboat facing right, gently riding seamless midnight-blue waves. The name and role remain still.</desc>
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#02080e"/><stop offset=".55" stop-color="#05212c"/><stop offset="1" stop-color="#010810"/></linearGradient>
+    <radialGradient id="halo" cx=".8" cy=".17" r=".72"><stop stop-color="#0a6a78" stop-opacity=".50"/><stop offset=".5" stop-color="#045268" stop-opacity=".12"/><stop offset="1" stop-color="#00121b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="current" x1="0" y1=".15" x2=".95" y2=".85"><stop stop-color="#12657b" stop-opacity="0"/><stop offset=".30" stop-color="#1699ab" stop-opacity=".24"/><stop offset=".70" stop-color="#3de6e5" stop-opacity=".45"/><stop offset="1" stop-color="#0e6a8a" stop-opacity="0"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ff8fa" stop-opacity=".25"/><stop offset="1" stop-color="#20ceda" stop-opacity="0"/></linearGradient>
+    <linearGradient id="whale" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0e687c"/><stop offset=".46" stop-color="#0c344b"/><stop offset="1" stop-color="#061d2d"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="19"/></filter>
+    <filter id="shine"><feGaussianBlur stdDeviation="5"/></filter>
+    <clipPath id="frame"><rect width="1200" height="360" rx="0"/></clipPath>
+  
+<linearGradient id="ivoryMain" x1=".03" y1=".3" x2=".96" y2=".9"><stop stop-color="#fff9e8"/><stop offset=".24" stop-color="#e3d9c3"/><stop offset=".50" stop-color="#bfbcae"/><stop offset=".72" stop-color="#f7f0dd"/><stop offset="1" stop-color="#819fad"/></linearGradient>
+<linearGradient id="ivoryJib" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbf1db"/><stop offset=".42" stop-color="#e8dfc9"/><stop offset=".80" stop-color="#c7cabd"/><stop offset="1" stop-color="#728d9e"/></linearGradient>
+<linearGradient id="whiteHull" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".26" stop-color="#f2f5ee"/><stop offset=".62" stop-color="#c4d8db"/><stop offset=".9" stop-color="#557583"/><stop offset="1" stop-color="#183d51"/></linearGradient>
+<radialGradient id="boatReflection" cx="50%" cy="0" r=".9"><stop stop-color="#e6e6c2" stop-opacity=".35"/><stop offset="1" stop-color="#24576c" stop-opacity="0"/></radialGradient>
+</defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#sea)"/>
+    <rect width="1200" height="360" fill="url(#halo)"/>
+    <path d="M720 0L890 0 760 300 670 300Z" fill="url(#beam)" opacity=".35"><animate attributeName="opacity" values=".23;.42;.23" dur="12s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/></path>
+    <path d="M920 0L1020 0 920 316 858 316Z" fill="url(#beam)" opacity=".32"><animate attributeName="opacity" values=".35;.16;.35" dur="12s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/></path>
+
+    <!-- The sailboat and its 12-second cyclic motion replace the whale and sonar. -->
+    <g transform="translate(771 42)"><g>
+      <animateTransform attributeName="transform" type="translate" dur="12s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.5;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1;.42 0 .58 1" values="0 0;2 -5;0 0;-2 5;0 0"/>
+      <g transform="translate(190 210)"><g>
+        <animateTransform attributeName="transform" type="rotate" dur="12s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.5;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1;.42 0 .58 1" values="0;-.8;0;.8;0"/>
+        <g transform="translate(-190 -210)">
+          <path d="M190 42 L68 207 M192 42 L338 204" stroke="#b7d3d0" stroke-opacity=".58" stroke-width="1.1" fill="none"/>
+          <path d="M190 38 L190 211" stroke="#e4ece6" stroke-width="2.7"/>
+          <path d="M192 40 C180 31 171 37 159 36 C171 43 182 42 192 41Z" fill="#ded6c3" stroke="#d0d5cd" stroke-width=".65">
+            <animate attributeName="d" dur="12s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1" values="M192 40 C180 31 171 37 159 36 C171 43 182 42 192 41Z;M192 40 C183 32 174 37 154 39 C171 42 183 39 192 41Z;M192 40 C180 31 171 37 159 36 C171 43 182 42 192 41Z"/>
+          </path>
+          <path d="M184 49 C158 91 121 152 61 194 C102 190 152 189 184 192 C181 145 181 102 184 49Z" fill="url(#ivoryMain)" stroke="#e9f1df" stroke-opacity=".62" stroke-width="1.2"/>
+          <path d="M184 53 C176 103 169 157 184 192 C148 181 100 194 61 194 C109 187 141 175 162 137Z" fill="#4e7077" opacity=".13"/>
+          <path d="M175 70 C146 130 109 169 68 191" stroke="#fffdf0" stroke-opacity=".43" fill="none" stroke-width="1.6"/>
+          <path d="M161 105 C138 146 114 163 95 171 M170 134 C141 162 120 173 83 188 M180 164 C151 175 117 184 78 192" stroke="#a5a99f" stroke-opacity=".27" fill="none" stroke-width=".95"/>
+          <path d="M196 73 C235 125 272 173 299 198 C266 190 235 190 196 192 C203 147 204 117 196 73Z" fill="url(#ivoryJib)" stroke="#fbf5e2" stroke-opacity=".62" stroke-width="1.25"/>
+          <path d="M200 80 C221 121 271 183 294 193" stroke="#fffdf0" stroke-opacity=".4" fill="none" stroke-width="1.2"/>
+          <path d="M196 192 C245 185 277 191 299 198" fill="none" stroke="#d0dfd4" stroke-opacity=".52" stroke-width="1"/>
+          <path d="M111 205 Q138 191 164 197 Q176 198 193 204" stroke="#e6ede6" stroke-opacity=".78" stroke-width="2" fill="none"/>
+          <path d="M116 207 Q139 198 160 200 Q177 200 188 207Z" fill="#0f4252" stroke="#b0c7c2" stroke-width=".95"/>
+          <path d="M41 211 C98 213 182 212 238 207 L340 199 C322 228 295 235 256 239 C166 251 76 243 41 211Z" fill="url(#whiteHull)" stroke="#eaf6ee" stroke-opacity=".76" stroke-width="1.35"/>
+          <path d="M43 212 C127 220 255 211 336 201" stroke="#fbfff8" stroke-width="1.8" stroke-opacity=".86" fill="none"/>
+          <path d="M49 222 C144 243 243 242 291 229" stroke="#27586b" stroke-opacity=".45" stroke-width="1.6" fill="none"/>
+          <path d="M63 231 C148 249 248 247 284 236" stroke="#e6eee3" stroke-opacity=".24" stroke-width="1.8" fill="none"/>
+          <path d="M95 244 C174 256 252 254 307 234 C267 263 160 270 95 244Z" fill="url(#boatReflection)" opacity=".5"/>
+        </g>
+      </g></g>
+    </g></g>
+        <path d="M-45 296 C173 238 333 333 530 278 S902 246 1245 279" stroke="#00c5d4" stroke-opacity=".25" stroke-width="31" fill="none" filter="url(#blur)">
+      <animate attributeName="d" dur="12s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1" values="M-45 296 C173 238 333 333 530 278 S902 246 1245 279;M-45 294 C173 280 333 287 530 254 S902 306 1245 262;M-45 296 C173 238 333 333 530 278 S902 246 1245 279"/>
+    </path>
+    <path d="M-45 297 C173 240 333 332 530 277 S902 245 1245 278" fill="none" stroke="url(#current)" stroke-width="24" opacity=".76">
+      <animate attributeName="d" dur="12s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1" values="M-45 297 C173 240 333 332 530 277 S902 245 1245 278;M-45 295 C173 282 333 286 530 253 S902 304 1245 261;M-45 297 C173 240 333 332 530 277 S902 245 1245 278"/>
+    </path>
+    <path d="M-35 312 C160 284 343 352 526 306 S944 270 1235 307" fill="none" stroke="#36c5d0" stroke-width="1.4" stroke-opacity=".48">
+      <animate attributeName="d" dur="12s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1" values="M-35 312 C160 284 343 352 526 306 S944 270 1235 307;M-35 315 C160 304 343 332 526 292 S944 298 1235 293;M-35 312 C160 284 343 352 526 306 S944 270 1235 307"/>
+    </path>
+    <path d="M-24 334 C173 291 342 354 534 319 S956 293 1240 328" fill="none" stroke="#178ea5" stroke-width="2" stroke-opacity=".35">
+      <animate attributeName="d" dur="12s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1" values="M-24 334 C173 291 342 354 534 319 S956 293 1240 328;M-24 329 C173 320 342 321 534 296 S956 326 1240 322;M-24 334 C173 291 342 354 534 319 S956 293 1240 328"/>
+    </path>
+    <g fill="#8de4e4" opacity=".33">
+      <circle cx="440" cy="272" r="1.4"/><circle cx="560" cy="305" r=".9"/><circle cx="675" cy="258" r="1.2"/><circle cx="830" cy="295" r="1.1"/><circle cx="1077" cy="304" r="1.3"/>
+    </g>
+    <rect x="0" y="0" width="585" height="245" fill="url(#sea)" opacity=".36"/>
+    <text x="63" y="160" fill="#f4f7f9" font-family="Georgia,'Times New Roman',serif" font-size="61" font-style="italic" letter-spacing="-1">Thant Syn Htet</text>
+    <text x="65" y="208" fill="#c6d5da" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="2.1">BACKEND · PLATFORM · ML SYSTEMS</text>
+    <path d="M64 238H272" stroke="#60d0d5" stroke-opacity=".65" stroke-width="1"/>
+  </g>
+</svg>
